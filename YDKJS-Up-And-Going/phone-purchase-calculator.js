@@ -39,6 +39,7 @@ function CalculateTax() {
 
 
 function DisplayPrice() {
+	accountBalance = prompt("What is your account balance");
 	CalculatePHONE_PRICE();
 	console.log("Your total comes to $" + totalPrice.toFixed(2));
 	if (CheckAccountBalance()) {
