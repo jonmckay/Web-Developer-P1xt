@@ -8,14 +8,14 @@ var totalPrice = 0;
 
 // Compare phone price with accessories against account balance and mental spending threshold
 function CheckSpendingThreshold() {
-	if((totalPrice + ACCESSORY_PRICE) < SPENDING_THRESHOLD) {
+	if(totalPrice + ACCESSORY_PRICE < SPENDING_THRESHOLD) {
 		return true;
 	}
 	return false;
 }
 
 function CheckAccountBalance() {
-	if(totalPrice < accountBalance){
+	if(totalPrice < accountBalance) {
 		return true;
 	}
 	return false;
@@ -34,7 +34,7 @@ function CalculatePHONE_PRICE() {
 
 // Calculate and add tax to the total price of all phones/accessories
 function CalculateTax() {
-	totalPrice += (totalPrice * TAX_RATE);
+	totalPrice += totalPrice * TAX_RATE;
 }
 
 

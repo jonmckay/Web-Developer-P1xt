@@ -1,3 +1,5 @@
+var numOfCustomers = 10;
+
 while (numOfCustomers > 0)
 {
 	console.log( "How may I help you?" );
