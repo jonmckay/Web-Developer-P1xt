@@ -7,3 +7,4 @@ var b = "a";
 
 obj[b];		// "hello world"
 obj["b"];	// 42
+
