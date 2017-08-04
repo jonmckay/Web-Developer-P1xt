@@ -1,7 +1,6 @@
 // Let keyword declares that variable in the scope of a block
 // In this example b is declared only in the if block
 
-
 function foo() {
 	var a = 1;
 
