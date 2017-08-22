@@ -14,7 +14,7 @@ function speak() {
 }
 
 var me = {
-	name: "Kyle"
+	name: "Jon"
 };
 
 var you = {
@@ -28,3 +28,15 @@ speak.call(me);		// Hello, I'm KYLE
 speak.call(you);	// Hello, I'm READER
 
 
+// Example not relying on 'this'. This example is messy and not as elegant
+function identifyWithoutThis(context) {
+	return context.name.toUpperCase();
+}
+
+function speakWithoutThis(context) {
+	var greeting = "Hello, I'm " + identifyWithoutThis(context);
+	console.log(greeting);
+}
+
+identifyWithoutThis(you);
+speakWithoutThis(me);
