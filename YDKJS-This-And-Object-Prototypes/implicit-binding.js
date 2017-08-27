@@ -1,5 +1,5 @@
 /* 
-	This object "owns" or "contains" the function reference at the time the function is called
+	This object "owns" or "contains" the function reference at the time the function is called.
 */
 
 function foo() {
