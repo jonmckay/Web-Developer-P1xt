@@ -14,4 +14,3 @@ var obj = {
 };
 
 foo.call( obj );  // 2
-
