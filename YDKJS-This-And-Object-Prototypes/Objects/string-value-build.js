@@ -16,4 +16,4 @@ if (wantA) {
 
 // later
 
-console.log( myObject[idx] );	// 2
+console.log( myObject[idx] );
