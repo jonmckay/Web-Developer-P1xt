@@ -12,3 +12,4 @@ Object.preventExtensions( myObject );
 myObject.b = 3;
 console.log(myObject.b);	// undefined
 
+// in strict mode this will throw a TypeError
