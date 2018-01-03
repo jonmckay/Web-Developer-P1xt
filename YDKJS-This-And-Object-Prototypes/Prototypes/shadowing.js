@@ -11,8 +11,8 @@ var myObject = Object.create( anotherObject );
 console.log(anotherObject.a);	// 2
 console.log(myObject.a);	// 2
 
-anotherObject.hasOwnProperty( "a" );	// true
-anotherObject.hasOwnProperty( "a" );	// false
+console.log(anotherObject.hasOwnProperty( "a" ));	// true
+console.log(myObject.hasOwnProperty( "a" ));	// false
 
 myObject.a++;	// implicit shadowing
 
