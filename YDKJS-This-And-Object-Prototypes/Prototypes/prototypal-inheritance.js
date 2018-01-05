@@ -30,4 +30,4 @@ Bar.prototype.myLabel = function() {
 var a = new Bar( "a", "obj a" );
 
 a.myName();	// "a"
-a.myLabel();	// "obj a"
+a.myLabel();	// "obj a" 
