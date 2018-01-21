@@ -1,5 +1,6 @@
 /*
-*	OLOO (objects linked to other objects) example
+*	OLOO (objects linked to other objects) example. The code below takes the same advantage of [[prototype]] delegation
+*	from b1 to Bar to Foo like the object oriented pattern. This pattern simplifies the setup of objects linked together.
 */
 
 var Foo = {
